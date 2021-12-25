@@ -1,13 +1,13 @@
 import React from "react";
-import { FlatList, View, StyleSheet, StatusBar } from "react-native";
+import { FlatList, View, StyleSheet } from "react-native";
+import theme from "../theme";
 import RepositoryItem from "./RepositoryItem";
 
 const styles = StyleSheet.create({
-  container: {
-    marginTop: StatusBar.currentHeight || 0,
-  },
+  container: {},
   separator: {
     height: 10,
+    backgroundColor: theme.colors.separator.backgroundPrimary,
   },
 });
 

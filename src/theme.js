@@ -1,19 +1,19 @@
 const theme = {
   colors: {
-    textPrimary: "#24292e",
-    textSecondary: "#586069",
-    primary: "#0366d6",
+    appBar: {
+      backgroundPrimary: "#25292C",
+      fontPrimary: "#FFFFFF",
+    },
+    separator: {
+      backgroundPrimary: "#E1E5E8",
+    },
+    text: {
+      secondary: "#FFFFFF",
+    },
   },
   fontSizes: {
-    body: 14,
-    subheading: 16,
-  },
-  fonts: {
-    main: "System",
-  },
-  fontWeights: {
-    normal: "400",
-    bold: "700",
+    appBar: 20,
+    medium: 20,
   },
 };
 
