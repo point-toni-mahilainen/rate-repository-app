@@ -15,6 +15,10 @@ const styles = StyleSheet.create({
     display: "flex",
     width: "77%",
   },
+  baseContainer: {
+    padding: 20,
+    backgroundColor: theme.colors.container.backgroundPrimary,
+  },
   count: {
     marginBottom: 5,
     fontSize: theme.fontSizes.medium,
@@ -73,7 +77,7 @@ const RepositoryItem = ({ item }) => {
   };
 
   return (
-    <View style={{ padding: 20 }}>
+    <View style={styles.baseContainer}>
       <View style={styles.upperContainer}>
         <View style={styles.avatarContainer}>
           <Image

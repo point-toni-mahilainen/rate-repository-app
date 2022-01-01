@@ -1,8 +1,14 @@
 const theme = {
   colors: {
+    app: {
+      backgroundPrimary: "#E1E5E8",
+    },
     appBar: {
       backgroundPrimary: "#25292C",
       fontPrimary: "#FFFFFF",
+    },
+    container: {
+      backgroundPrimary: "#FFFFFF",
     },
     separator: {
       backgroundPrimary: "#E1E5E8",
